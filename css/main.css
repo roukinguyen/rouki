@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.container {
+	background-color: #222;
+}
+.header{
+	width: 100%;
+	height: 50px
+}
+.header-left{
+	width: 9.9%;
+	float: left;
+	height: 96%;
+	border-width: 0.5px;
+	background-color: #555;
+	
+}
+.header-left-logo{
+	margin-top: 5%;
+}
+.header-left-logo a{
+	text-decoration: none;
+	text-align: center;
+}
+.header-left-logo h1{
+	color: white;
+	font-size: 30px;
+}
+.header-right{
+	width: 90%;
+	float: right;
+	height: 96%;
+	background-color: #555;
+}
+.header-right-slogan h1{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+}
+.content {
+	width: 100%;
+	height: 100vh;
+}
+.content-menu{
+	width: 10%;
+	float: left;
+	height: 99.8vh;
+	background-color: #555;
+}
+.content-menu ul{
+	background: #555;
+	width: 100%;
+	padding: 0;
+	list-style-type: none; 
+}
+.content-menu ul li{
+	width: auto;
+	height: 70px;
+	line-height: 50px;
+	padding-left: 30%;
+	position: relative;
+	
+}
+.content-menu-padding{
+	margin-top: 5%;
+	margin-left: 5%;
+}
+.content-menu ul li img{
+	width: 50px;
+	height: 50px;
+	padding-top: 10%;
+}
+.content-menu ul li a{
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	display: block;
+	font-size: 30px;
+}
+
+.content-menu ul li:hover{
+	background: #9C9C9C;
+}
+.content-menu .sub-menu{
+	position: absolute;
+	left: 100%;
+	top: 0;
+	display: none;
+	width: 150%;
+}
+.content-menu ul li:hover .sub-menu{
+	display: block;
+	z-index: 10;
+}
+.content-section{
+	width: 90%;
+	float: right;
+	height: 100vh;
+	
+}
+.content-section-chart{
+	
+	margin: 2% 2% 2% 2%;
+	height: 100%;
+	height: 93vh;
+	
+}
+.content-section-chart-t1{
+	width: 47%;
+	margin: auto;
+	display: inline-block;
+	margin-left: 2%;
+}
+.chart-t1-style-title{
+	background: white;
+	text-align: center;
+}
+.chart-t1-style{
+	
+	margin-top: 5%;
+	
+}
+#chart-t2-style-content-container1{
+	height: 400px; 
+	margin: 0 auto;
+}
+.chart-t2-style-title{
+	background: white;
+	text-align: center;
+}
+.chart-t2-style{
+	
+	margin-top: 5%;
+	
+}
+#chart-t2-style-content-container2{
+	height: 400px; 
+	margin: 0 auto; 
+	overflow: scroll; 
+	background: white;
+}
+
+.footer{
+	width: 100%;
+	background: #555;
+	height: 50px;
+	
+}
+.footer p{
+	text-align: center;
+	line-height: 40px;
+	font-size: 30px;
+}
