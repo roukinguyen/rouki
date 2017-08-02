@@ -21,6 +21,7 @@
                 <div class="header-right-slogan">
                     <h1>Web App Monitor</h1> </div>
             </div>
+			<div></div>
         </div>
         <div class="content">
             <div class="content-menu">
