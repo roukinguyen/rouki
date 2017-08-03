@@ -1,0 +1,26 @@
+.content-cpu-chart {
+	height: 400px;
+	margin-top: 50px;
+}
+#interaction{ 
+	height: 400px; 
+	color:#333333;
+	font-size:18px;
+	fill:#333333;
+}
+.content-ram-chart{
+	height: 400px;
+	margin-top: 50px;
+}
+.content-disk-chart{
+	height: 400px;
+	margin-top: 50px;
+}
+.getlog {
+	margin-top: 70px;
+}
+.svr-st {
+	width: 100%;
+	display: block;
+	margin-top: 20px;
+}

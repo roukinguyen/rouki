@@ -1,0 +1,109 @@
+.smtw-header{
+	background-color: #3f4248;
+	height: 100px;
+}
+.smtw-header-logo img{
+
+	width: 100%;
+	height: 100%;
+}
+
+.header-icon img{
+	width: 40px;
+	height: 40px;
+
+}
+.smtw-header-right-icon{
+	margin-top: 30px;
+}
+.icon{
+	display: inline-block;
+	padding-left: 5%;
+}
+.icon:first-child{
+	padding-left: 0;
+}
+.icon-p{
+	display: none;
+}
+.icon a:hover + p{
+	display: block;
+	position: absolute;
+	background-color: white;
+	text-align: center;
+	width: 10%;
+}
+
+.sidebar{
+	background-color: #474a52;
+	
+}
+
+.sidebar-menu ul {
+ 
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+}
+.sidebar-menu li {
+  width: auto;
+  height: 100px;
+  line-height: 40px;
+}
+.sidebar-menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: block;
+}
+.sidebar-menu li div{
+	height: 100%;
+}
+.sidebar-menu li div img{
+	display: inline-block;
+	width: 70%;
+	margin-top: 25px;
+}
+.sidebar-menu-icon-title{
+	width: 50%;
+	display: none;
+}
+.sidebar-menu-icon-image{
+	width: 50%;
+	margin-left: 25%;
+}
+
+.sidebar-menu li:hover{
+  background: #CDE2CD;
+  transition: 4s;
+}
+/*
+
+.sidebar-menu li :hover .sidebar-menu-icon-image{
+	float: right;
+	display: inline-block;
+	margin-left: 0;
+	padding-left: 7%;
+	
+}
+.sidebar-menu li :hover .sidebar-menu-icon-title {	
+	float: left;
+	display: inline-block;
+	margin-top: 30px;
+}
+.sidebar-menu li :hover .sidebar-menu-icon-image img {	
+	width: 90%;
+}
+*/
+
+.smtw-footer{
+	background-color: #3f4248;
+	text-align: center;
+	height: 40px;
+}
+.smtw-footer p{
+	text-align: center;
+	width: 100%;
+	margin-top: 8px;
+}
